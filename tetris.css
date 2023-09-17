@@ -1,0 +1,50 @@
+.Tetris_Box{
+    display:flex;
+    flex-direction:column;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    width: 316px;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 316px;
+    height: 82px;
+    border: none;
+    background-position: center;
+    background-size: cover;
+    margin: 2px;
+    border-radius: 2px;
+    transition: all 0.1s;
+}
+.box:hover{
+    width: 310px;
+    height: 75px;
+    background-position: center;
+}
+.one{
+    background-image: url('1.jpg');
+}
+.two{
+    background-image: url('2.jpg');
+}
+.three{
+    background-image: url('3.jpg');
+}
+.foue{
+    background-image: url('4.jpg');
+}
+.five{
+    background-image: url('5.png');
+}
+
+.title{
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 6px;
+    margin-bottom: 8px;
+}
